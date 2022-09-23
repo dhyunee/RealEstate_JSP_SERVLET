@@ -15,34 +15,34 @@
 ## 브레인스토밍 내용
 [메인 화면]
 ![image.png](./image.png)
-- 드롭다운을 통한 위치정보 입력
+- 드롭다운을 통한 위치정보 입력<br>
 
 
 
-- Controller : 요청 받아서 필요한 데이터 Model에게 의뢰
+- Controller : 요청 받아서 필요한 데이터 Model에게 의뢰<br>
 
- MainServlet :  게시판에 리스트 띄우고 검색
- LoginServlet : 로그인, 로그아웃
- UserServlet : 회원 가입
+ MainServlet :  게시판에 리스트 띄우고 검색<br>
+ LoginServlet : 로그인, 로그아웃<br>
+ UserServlet : 회원 가입<br>
 
 
-- Model : 명령 처리
+- Model : 명령 처리<br>
 
- Service : 명령 Controller에서 받아 Dao에 전달 및 간단한 수식 연산
- MainService : 게시판에 관한 것들
- LoginService : 로그인 , 로그아웃
- UserServlet : 회원 가입
+ Service : 명령 Controller에서 받아 Dao에 전달 및 간단한 수식 연산<br>
+ MainService : 게시판에 관한 것들<br>
+ LoginService : 로그인 , 로그아웃<br>
+ UserServlet : 회원 가입<br>
 
- Dto : 객체 반환
- MainDto
- UserDto
+ Dto : 객체 반환<br>
+ MainDto<br>
+ UserDto<br>
 
- Dao : Service에서 받은 요청 처리
- LoginDao
- MainDao
- UserDao
+ Dao : Service에서 받은 요청 처리<br>
+ LoginDao<br>
+ MainDao<br>
+ UserDao<br>
 
-- View : 화면 
+- View : 화면 <br>
 
 
 

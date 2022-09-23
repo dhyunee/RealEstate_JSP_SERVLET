@@ -7,35 +7,42 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Servlet implementation class UserServlet
- */
-@WebServlet(name = "User", urlPatterns = { "/User" })
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+
+import Dto.UserDto;
+import Service.UserService;
+import Service.UserServiceImpl;
+
+
+@WebServlet("/register")
 public class UserServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public UserServlet() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
+	UserService userService=UserServiceImpl.getInstance();
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
-	}
+		request.setCharacterEncoding("utf-8");
+		String userName=request.getParameter("userName");
+		String userEmail=request.getParameter("userEmail");
+		String userPassword=request.getParameter("userPassword");
+		
+		UserDto userDto =new UserDto();
+		userDto.setUserName(userName);
+		userDto.setUserEmail(userEmail);
+		userDto.setUserPassword(userPassword);
+		
+		int ret=userService.userRegister(userDto);
+		
+		Gson gson=new Gson();
+		JsonObject jsonobject=new JsonObject();
 
+		if(ret==1) {
+			jsonobject.addProperty("result","success");
+		}else {
+			jsonobject.addProperty("result","fail");
+		}
+
+		String jsonStr=gson.toJson(jsonobject);
+		response.getWriter().write(jsonStr);
+	}
 }

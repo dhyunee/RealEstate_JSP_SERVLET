@@ -1,5 +1,7 @@
 package Service;
 
-public interface UserService {
+import Dto.UserDto;
 
+public interface UserService {
+	public int userRegister(UserDto userDto);
 }

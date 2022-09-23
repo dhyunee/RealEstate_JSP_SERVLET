@@ -19,7 +19,30 @@
 
 
 
+- Controller : 요청 받아서 필요한 데이터 Model에게 의뢰
 
+* MainServlet :  게시판에 리스트 띄우고 검색
+* LoginServlet : 로그인, 로그아웃
+* UserServlet : 회원 가입
+
+
+- Model : 명령 처리
+
+* Service : 명령 Controller에서 받아 Dao에 전달 및 간단한 수식 연산
+* MainService : 게시판에 관한 것들
+* LoginService : 로그인 , 로그아웃
+* UserServlet : 회원 가입
+
+* Dto : 객체 반환
+* MainDto
+* UserDto
+
+* Dao : Service에서 받은 요청 처리
+* LoginDao
+* MainDao
+* UserDao
+
+- View : 화면 
 
 
 

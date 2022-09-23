@@ -16,7 +16,7 @@
 [메인 화면]
 ![image.png](./image.png)
 - 드롭다운을 통한 위치정보 입력<br>
-
+=> 입력된 위치 정보에 부합하는 정보를 지도 상에 마크로 표시
 
 
 - Controller : 요청 받아서 필요한 데이터 Model에게 의뢰<br>
@@ -43,6 +43,12 @@
  UserDao<br>
 
 - View : 화면 <br>
+
+- 공지사항 게시판 CRUD 기능 => MODAL 창을 활용.<br>
+
+[가능하면]
+![image-1.png](./image-1.png)
+- CONTACT US => FOOTER -> 문의하기 버튼을 통해 MODAL로 메일 문의(전송), MYSQL mail table에 저장.
 
 
 

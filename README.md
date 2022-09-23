@@ -47,6 +47,7 @@
 - 공지사항 게시판 CRUD 기능 => MODAL 창을 활용.<br>
 
 [가능하면]
+![image-1.png](./image-1.png)
 - CONTACT US => FOOTER -> 문의하기 버튼을 통해 MODAL로 메일 문의(전송), MYSQL mail table에 저장.
 
 

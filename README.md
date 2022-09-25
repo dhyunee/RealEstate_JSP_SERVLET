@@ -46,6 +46,14 @@
 
 
 ## 결과
+![image-6.png](./image-6.png)
+- 메인 인덱스에서 회원가입 메뉴를 통해 회원가입한 유저 정보로
+로그인 메뉴에서 로그인한다.
+![image-8.png](./image-8.png)
+- 로그인 성공
+![image-9.png](./image-9.png)
+- 로그인 실패 시
+
 ![image-2.png](./image-2.png)
 - 공지사항 게시판
 ![image-4.png](./image-4.png)

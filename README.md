@@ -44,11 +44,16 @@
 
 - View : 화면 <br>
 
-- 공지사항 게시판 CRUD 기능 => MODAL 창을 활용.<br>
 
-[가능하면]
-![image-1.png](./image-1.png)
-- CONTACT US => FOOTER -> 문의하기 버튼을 통해 MODAL로 메일 문의(전송), MYSQL mail table에 저장.
+## 결과
+![image-2.png](./image-2.png)
+- 공지사항 게시판
+![image-4.png](./image-4.png)
+- boardInsert 함수 사용, 글 등록
+![image-5.png](./image-5.png)
+- AJAX로 리스트 업데이트
 
 
+
+**첨부된 index.jsp는 건물매매정보 MVC를 디자인했으나 완성하지 못한 메인 JSP 파일입니다.** 
 

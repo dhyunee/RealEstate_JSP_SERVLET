@@ -61,7 +61,20 @@
 ![image-5.png](./image-5.png)
 - AJAX로 리스트 업데이트
 
+![sidooption.png](./sidooption.png)
+- 광역시와 도를 선택
+![gugunoption.png](./gugunoption.png)
+- 광역시와 도에 따른 구와 군을 select box로 로드하고 선택
+![dongoption.png](./dongoption.png)
+- 구군코드에 따른 동을 select box로 로드하고 선택
 
+![selectconsole.png](./selectconsole.png)
+- 동까지 선택한 후 console 화면
+![latlngconsole.png](./latlngconsole.png)
+- 동까지 선택한 후 console 화면 (housedeal과 houseinfo를 조인하여 위도, 경도 가져옴)
+
+![map&list_load.png](./map&list_load.png)
+- map과 시 or 도/ 구 or 군/ 동 을 선택했을 시 정보 list 가져옴
 
 **첨부된 index.jsp는 건물매매정보 MVC를 디자인했으나 완성하지 못한 메인 JSP 파일입니다.** 
 

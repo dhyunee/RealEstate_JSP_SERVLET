@@ -46,6 +46,12 @@
 
 
 ## 결과
+![image-14.png](./image-14.png)
+- 회원가입 jsp
+![image-15.png](./image-15.png)
+- 공통코드에 속하는 PER_CODE에 권한 코드를 지정
+![image-13.png](./image-13.png)
+- 회원 권한 관련 공통코드
 ![image-6.png](./image-6.png)
 - 메인 인덱스에서 회원가입 메뉴를 통해 회원가입한 유저 정보로
 로그인 메뉴에서 로그인한다.
@@ -79,6 +85,8 @@
 
 ![map&list_load.png](./map&list_load.png)
 - map과 시 or 도/ 구 or 군/ 동 을 선택했을 시 정보 list 가져옴
+
+
 
 **첨부된 index.jsp는 건물매매정보 MVC를 디자인했으나 완성하지 못한 메인 JSP 파일입니다.** 
 **mypage.jsp 정보수정 미완**

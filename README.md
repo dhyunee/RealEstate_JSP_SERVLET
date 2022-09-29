@@ -46,12 +46,12 @@
 
 
 ## 결과
-![image-14.png](./image-14.png)
-- 회원가입 jsp
-![image-15.png](./image-15.png)
-- 공통코드에 속하는 PER_CODE에 권한 코드를 지정
-![image-13.png](./image-13.png)
-- 회원 권한 관련 공통코드
+![image-14.png](./image-14.png)<br>
+- 회원가입 jsp<br>
+![image-15.png](./image-15.png)<br>
+- 공통코드에 속하는 PER_CODE에 권한 코드를 지정<br>
+![image-13.png](./image-13.png)<br>
+- 회원 권한 관련 공통코드<br>
 ![image-6.png](./image-6.png)
 - 메인 인덱스에서 회원가입 메뉴를 통해 회원가입한 유저 정보로
 로그인 메뉴에서 로그인한다.

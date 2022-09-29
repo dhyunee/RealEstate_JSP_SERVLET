@@ -54,6 +54,10 @@
 ![image-9.png](./image-9.png)
 - 로그인 실패 시
 
+![image-10.png](./image-10.png)
+![image-11.png](./image-11.png)
+- 로그인 세션이 유지되면 모든 페이지에서 서브헤더에 로그인 정보가 표시된다.
+
 ![image-2.png](./image-2.png)
 - 공지사항 게시판
 ![image-4.png](./image-4.png)
@@ -77,4 +81,6 @@
 - map과 시 or 도/ 구 or 군/ 동 을 선택했을 시 정보 list 가져옴
 
 **첨부된 index.jsp는 건물매매정보 MVC를 디자인했으나 완성하지 못한 메인 JSP 파일입니다.** 
+**mypage.jsp 정보수정 미완**
+![image-12.png](./image-12.png)
 
